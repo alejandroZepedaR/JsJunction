@@ -1,8 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
     font-size: 20px;
@@ -33,7 +28,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     margin-top: 2em;
-    background-color: #fefcfb;
+    background-color: #e3f2fd;
 }
 
 .main-canvas{
@@ -46,8 +41,8 @@ button:hover{
     justify-content: space-between;
     padding: 2em;
     border-radius: 50px;
-    background: #fefcfb;
-    box-shadow: inset -35px -35px 71px #d8d6d5,
+    background: #e3f2fd;
+    box-shadow: inset -35px -35px 71px #c1ced7,
                 inset 35px 35px 71px #ffffff;
 }
 
