@@ -1,1 +1,1 @@
-# PaintXD
+# JS Junction
