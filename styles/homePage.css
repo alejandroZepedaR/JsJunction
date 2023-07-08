@@ -1,7 +1,31 @@
 
+h2{
+    color: #00509d;
+    font-size: 2em;
+}
+h3{
+    font-size: 1em;
+}
 .container{
     width: 90%;
     margin-left: 5%;
     display: flex;
     flex-direction: column;
+    background-color: #c1ced7;
 }
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+.description h3{
+    font-style: italic;
+    font-family: 'Titillium Web', sans-serif;
+}
+
