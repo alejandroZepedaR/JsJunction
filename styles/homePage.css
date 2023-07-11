@@ -12,6 +12,17 @@ section{
     padding-top: 1em;
     padding-bottom: 1em;
 }
+section p{
+    font-family: 'Titillium Web', sans-serif;
+}
+b{
+    color: #00509d;
+}
+ul{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    list-style: none;
+}
 .container{
     width: 90%;
     margin-left: 5%;
@@ -59,6 +70,7 @@ section{
 }
 
 .paint-xd div{
+    width: 60%;
     margin-left: 1em;
     display: flex;
     flex-direction: column;
@@ -66,8 +78,16 @@ section{
     align-items: center;
 }
 
+.paint-xd h2{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.paint-xd h3{
+    margin-top: 1em;
+}
+
 .paint-xd img{
-    width: 50%;
+    width: 40%;
 }
 
 
