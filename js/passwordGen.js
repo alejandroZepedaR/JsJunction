@@ -1,3 +1,4 @@
+
 let passwordLabel = document.getElementById("password-label");
 let capsCheck = document.getElementById("caps-check");
 let specialCheck = document.getElementById("spceial-check");
@@ -29,6 +30,12 @@ function getCharacter(characterList){
     return characterList[index];
 
 }
+
+function copyPassword(){
+    navigator.clipboard.writeText(passwordLabel.innerText);
+    alert("Password coppied!")
+}
+
 function randomShuffleString(inputString) {
     let charArray = inputString.split('');
 
@@ -40,7 +47,7 @@ function randomShuffleString(inputString) {
     let shuffledString = charArray.join('');
 
     return shuffledString;
-  }
+}
 function generatePassword(){
     let password = "";
     let allCharacters = alphabet;
