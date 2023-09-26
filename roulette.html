@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <title>DecisionMaker</title>
+</head>
+<body>
+    <header>
+        <h1>Decision<strong>Maker</strong></h1>
+        <nav>
+            <a href="https://alejandrozepedar.github.io/JsJunction/">Back</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div>
+                <input type="text" placeholder="Add a thing to choose" id="input-thing" name="input-thing">
+                <button onclick="addToList()">Add</button>
+                <div class="options">
+                    <ul id="choosing-list">
+
+                    </ul>
+                    <button onclick="randomPick()">Random Pick</button>
+                </div>
+                <div id="option-picked">
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/randomPicker.js"></script>
+</html>
