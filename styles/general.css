@@ -50,3 +50,7 @@ nav{
     align-items: center;
     justify-content: end;
 }
+
+button{
+    cursor: pointer;
+}

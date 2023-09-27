@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/decisionMaker.css">
     <title>DecisionMaker</title>
 </head>
 <body>
@@ -18,19 +19,19 @@
     </header>
     <main>
         <div class="container">
+            <div class="picked-displayed">
+                <h1 id="option-picked"></h1>
+            </div>
             <div>
                 <input type="text" placeholder="Add a thing to choose" id="input-thing" name="input-thing">
-                <button onclick="addToList()">Add</button>
+                <button id="add-button" onclick="addToList()">ADD</button>
                 <div class="options">
                     <ul id="choosing-list">
 
                     </ul>
-                    <button onclick="randomPick()">Random Pick</button>
-                </div>
-                <div id="option-picked">
-
                 </div>
             </div>
+            <button class="random-pick" onclick="randomPick()">Random Pick</button>
         </div>
     </main>
 </body>
