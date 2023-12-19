@@ -12,7 +12,6 @@ input{
     margin-bottom: 20px;
     padding: 15px;
     font-size: 2em;
-
 }
 ul{
     list-style: none;
@@ -55,4 +54,11 @@ li{
     padding: 20px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    input{
+        width: 100%;
+        font-size: 1em;
+    }
 }
