@@ -91,4 +91,24 @@ ul{
     width: 40%;
 }
 
+@media screen and (max-width: 600px) {
+    .paint-xd{
+        flex-direction: column;
+    }
+    .paint-xd img{
+        width: 100%;
+    }
+    .paint-xd div{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .description img{
+        width: 80%;
+    }
+    .description{
+        text-align: center;
+    }
+  }
+
 
