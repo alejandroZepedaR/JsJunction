@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Word Counter</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/wordCounter.css">
+    </head>
+<body>
+    <header>
+        <h1>Word<strong>Counter</strong></h1>
+        <nav>
+            <a href="https://alejandrozepedar.github.io/JsJunction/">Back</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <textarea name="text" id="text"></textarea>
+            <div class="statistics">
+                <div class="word-count">
+                    <h2>Word Count</h2>
+                    <span id="word-count">0</span>
+                </div>
+                <div class="character-count">
+                    <h2>Character Count</h2>
+                    <span id="character-count">0</span>
+                </div>
+                <div class="sentence-count">
+                    <h2>Sentence Count</h2>
+                    <span id="sentence-count">0</span>
+                </div>
+                <div class="paragraph-count">
+                    <h2>Paragraph Count</h2>
+                    <span id="paragraph-count">0</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/wordCount.js"></script>
+</html>
