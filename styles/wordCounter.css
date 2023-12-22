@@ -16,7 +16,7 @@
 .statistics{
     display: flex;
     justify-content: space-evenly;
-    font-family: 'Bebas Neue', sans-serif;;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .statistics div{
